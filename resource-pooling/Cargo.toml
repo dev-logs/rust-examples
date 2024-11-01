@@ -1,0 +1,9 @@
+[package]
+name = "resource-pooling"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "1.28.2", features = ["full"]}
+tokio-scoped = "0.2.0"
+async-trait = "0.1.13"
